@@ -1,0 +1,49 @@
+/* style layout chung cho cac trng web */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+header{
+    background-color: lightpink;
+    padding: 10px;
+    background-image: url('/image/photo1thumb.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+header h1{
+    text-indent: 200px;
+}
+
+footer{
+    padding: 20px;
+    border-top: solid thin brown;
+    border-bottom: double thin burlywood;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    text-align: center;
+}
+li>a{
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    background-color: lightseagreen;
+    color: beige;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+li>a:hover{
+    background-color: blue;
+}
